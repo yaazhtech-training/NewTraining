@@ -1,8 +1,6 @@
 package com.yaazhtech.employeeData;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+/*
 @SpringBootApplication
 public class EmployeeDataApplication {
 
@@ -11,3 +9,5 @@ public class EmployeeDataApplication {
 	}
 
 }
+
+ */
