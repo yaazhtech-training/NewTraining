@@ -2,22 +2,24 @@ package com.yaazhtech.employeeData.abstractClass;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentModification {
 
     public static void main(String[] args) {
 
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(1, 1);
-        map.put(2, 2);
-        map.put(3,3);
+        Map<Integer, String> map = new ConcurrentHashMap<Integer,String>();
+        map.put(1, "jeni");
+        map.put(2, "joanna");
+        map.put(3,"japhia");
 
         Iterator<Integer> it = map.keySet().iterator();
         while(it.hasNext()) {
             Integer key = it.next();
-            System.out.println("Map Value:" + map.get(key));
+            System.out.println(key);
             if (key.equals(2)) {
-                map.put(1, 4);
+                map.put(1, "joyce");
 
 
             }

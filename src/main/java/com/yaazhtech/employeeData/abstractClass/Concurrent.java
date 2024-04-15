@@ -20,7 +20,7 @@ public class Concurrent {
             Integer value = it.next();
 
             if (value.equals(3))
-              //list.remove(value);
+              list.remove(value);
 it.remove();
             System.out.println("List Value:" + value);
         }
