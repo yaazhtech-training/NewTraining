@@ -19,7 +19,7 @@ public class Concurrent {
         while (it.hasNext()) {
             Integer value = it.next();
 
-            if (value.equals(3))
+            if (value.equals(4))
               list.remove(value);
 it.remove();
             System.out.println("List Value:" + value);
