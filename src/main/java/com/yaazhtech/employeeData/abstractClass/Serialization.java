@@ -4,7 +4,7 @@ public class Serialization implements java.io.Serializable {
     public int a;
     public String b;
 
-    public Serialization(int i, String geeksforgeeks) {
+    public Serialization(int i, String yaazhtech) {
     }
 
     // Default constructor
