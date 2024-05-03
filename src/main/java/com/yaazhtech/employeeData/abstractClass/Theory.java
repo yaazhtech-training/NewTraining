@@ -1,0 +1,4 @@
+package com.yaazhtech.employeeData.abstractClass;
+
+public class Theory {
+}
