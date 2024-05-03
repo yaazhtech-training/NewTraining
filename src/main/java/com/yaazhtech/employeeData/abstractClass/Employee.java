@@ -3,7 +3,7 @@ package com.yaazhtech.employeeData.abstractClass;
 public class Employee extends Sun {
     void printInfo()
     {
-        String name = "avinash";
+        String name = "SURESH";
         int age = 21;
         float salary = 222.2F;
 
