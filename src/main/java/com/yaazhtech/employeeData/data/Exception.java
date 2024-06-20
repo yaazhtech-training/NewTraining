@@ -1,6 +1,6 @@
 package com.yaazhtech.employeeData.data;
 
-public class Exception {
+public class Exception extends Throwable {
 
     public static void main(String args[]){
         int i=9;

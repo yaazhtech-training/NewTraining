@@ -1,5 +1,5 @@
 package com.yaazhtech.employeeData.data;
-
+//runnable
 public class ThreadNew {
 
     public static void main(String args[]){
